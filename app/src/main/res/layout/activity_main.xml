@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.a1694163.github.MainActivity">
+
+    <TextView
+    android:id="@+id/login"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello World!"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintHorizontal_bias="0.386"
+    app:layout_constraintVertical_bias="0.056"
+    app:layout_constraintLeft_toRightOf="@+id/avatar"
+    android:layout_marginLeft="8dp" />
+
+<ImageView
+    android:id="@+id/avatar"
+    android:layout_width="87dp"
+    android:layout_height="96dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:scaleType="fitCenter"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.028"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.02"
+    app:srcCompat="@mipmap/ic_launcher" />
+
+
+    <ListView
+        android:layout_width="323dp"
+        android:layout_height="356dp"
+        android:id="@+id/listview"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        tools:layout_editor_absoluteY="141dp"
+        tools:layout_editor_absoluteX="31dp">
+
+
+    </ListView>
+
+</android.support.constraint.ConstraintLayout>
